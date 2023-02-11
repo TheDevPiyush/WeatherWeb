@@ -4,7 +4,7 @@ This projects is coded by PiyushDev.<br/><br/>
 
 WeatherWeb uses a API from RapidApi services in backend, to get weather details for the searched location. <br/>
 
-This is a React Js project, created from scratch.
+Bootstrap 5.0 is used for GUI.
 
 ### The App is Live here : https://weatherwebbyshadow.netlify.app/
 
