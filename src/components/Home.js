@@ -29,6 +29,7 @@ export default class Home extends Component {
       progress: "0%",
       progressColor: "bg-info",
       alertmsg: null,
+      YourWhatsappNumber:"Remove this text & Enter Your Whatsapp Number Here"
 
     };
   }
@@ -124,7 +125,7 @@ export default class Home extends Component {
     this.setState({ pageBackground: "black", pageColor: "white" });
   };
   whatsapp = () => {
-    window.open("https://wa.me/918102461935?text=Hello!!%20%0Acontacting%20from%20WeatherWeb.");
+    window.open(`https://wa.me/${this.state.YourWhatsappNumber}?text=Hello!!%20%0Acontacting%20from%20WeatherWeb.`);
   };
   /*eslint-disable */
   render() {
