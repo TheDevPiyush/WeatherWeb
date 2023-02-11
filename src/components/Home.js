@@ -29,8 +29,8 @@ export default class Home extends Component {
       progress: "0%",
       progressColor: "bg-info",
       alertmsg: null,
-      YourWhatsappNumber:"Remove this text & Enter Your Whatsapp Number Here"
-
+      YourWhatsappNumber:"Remove This Text & Enter Your Whatsapp Number Here without Quotes with Country Code [EG : 91XXXXXXXXXX]",
+      WhatsAppMessage: "Remove this text & enter a message in Quotes OR Leave Blank."
     };
   }
   async componentDidMount() {
@@ -125,7 +125,7 @@ export default class Home extends Component {
     this.setState({ pageBackground: "black", pageColor: "white" });
   };
   whatsapp = () => {
-    window.open(`https://wa.me/${this.state.YourWhatsappNumber}?text=Hello!!%20%0Acontacting%20from%20WeatherWeb.`);
+    window.open(`https://wa.me/${this.state.YourWhatsappNumber}?text=${this.state.WhatsAppMessage}`);
   };
   /*eslint-disable */
   render() {
