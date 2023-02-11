@@ -1,7 +1,9 @@
 ## About Project
 
-This projects is coded by PiyushDev.
-In this app, you can get basic weather details about the place you can search.
+This projects is coded by PiyushDev.<br/><br/>
+
+WeatherWeb uses a API from RapidApi services in backend, to get weather details for the searched location. <br/>
+
 This is a React Js project, created from scratch.
 
 ### The App is Live here : https://weatherwebbyshadow.netlify.app/
